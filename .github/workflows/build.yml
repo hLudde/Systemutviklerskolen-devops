@@ -32,8 +32,8 @@ jobs:
       
       - name: Restore solution
         run: dotnet restore
-        working-directory: systemutviklerskolen-todo-add-backend
+        working-directory: systemutviklerskolen-todo-app-backend
         
       - name: build solution
         run: dotnet build
-        working-directory: systemutviklerskolen-todo-add-backend
+        working-directory: systemutviklerskolen-todo-app-backend
